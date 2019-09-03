@@ -58,9 +58,8 @@ def saysomething(request):
             query = myCommand();
         return query
 
-    if __name__ == '__main__':
 
-        while True:
+    while True:
 
             query = myCommand();
             query = query.lower()
